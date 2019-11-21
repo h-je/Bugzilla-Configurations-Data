@@ -51,5 +51,7 @@ max_allowed_packet=16M
 You must create a key in the Windows registry
 ------------------------------------------
 HKEY_CLASSES_ROOT\.cgi\Shell\ExecCGI\Command 
-    ADD     
-    C:\Strawberry\perl\bin\perl.exe -T
+
+    ADD with the default value pointing to the full path of perl.exe with a -T parameter
+   
+   C:\Strawberry\perl\bin\perl.exe -T
